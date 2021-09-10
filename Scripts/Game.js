@@ -34,7 +34,7 @@ function Shuffle(n)
 	)i=Math.floor(Math.random()*t),t-=1,r=n[t],n[t]=n[i],n[i]=r;
 	return n
 }
-var ticksPerSecond=20,game,GameController=function()
+var ticksPerSecond=2,game,GameController=function()
 	{
 	function n()
 		{
